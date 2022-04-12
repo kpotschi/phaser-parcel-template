@@ -1,8 +1,7 @@
 {
 	"name": "phaser-parcel-template",
 	"version": "1.0.0",
-	"browserslist": "> 0.5%, last 2 versions, not dead",
-	"description": "",
+	"description": "Tamplate running Phaser 3 and Parcel 2",
 	"scripts": {
 		"start": "parcel src/index.html --open --no-cache",
 		"build": "rm -rf ./dist && parcel build src/index.html --dist-dir dist --no-source-maps --public-url ."
