@@ -1,4 +1,4 @@
-import CONSTANTS from '../configs/constants.js';
+import CONSTANTS from '../configs/constants.yaml';
 
 export default class StartScene extends Phaser.Scene {
 	constructor() {

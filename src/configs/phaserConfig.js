@@ -1,14 +1,14 @@
 import Phaser from 'phaser';
-import CONFIG from './constants.js';
+import CONSTANTS from '../configs/constants.yaml';
 import StartScene from '../scenes/StartScene.js';
 
 export default {
 	type: Phaser.AUTO,
 	parent: 'game',
-	backgroundColor: CONFIG.COLOR.PRIMARY,
+	backgroundColor: CONSTANTS.COLOR.PRIMARY,
 	scale: {
-		width: CONFIG.WIDTH,
-		height: CONFIG.HEIGHT,
+		width: CONSTANTS.WIDTH,
+		height: CONSTANTS.HEIGHT,
 		mode: Phaser.Scale.FIT,
 		autoCenter: Phaser.Scale.CENTER_BOTH,
 	},
